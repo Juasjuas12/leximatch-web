@@ -1,26 +1,27 @@
-LexiMatch Pro: El Asistente Inteligente para Crucigramas
-LexiMatch Pro es una herramienta web de alto rendimiento diseñada para ayudar a entusiastas de los crucigramas y juegos de palabras a encontrar términos precisos de forma instantánea. A diferencia de los buscadores tradicionales, LexiMatch combina una interfaz minimalista y moderna con un motor de búsqueda avanzado que entiende las reglas del lenguaje.
+# 🔍 LexiMatch Pro - Buscador Inteligente de Crucigramas
 
-Características Principales
-Búsqueda Dinámica por Patrones: Genera una cuadrícula interactiva según la longitud de la palabra. Escribe las letras que ya conoces y deja espacios en blanco para que la IA haga el resto.
+**LexiMatch Pro** es una herramienta web de alto rendimiento diseñada para ayudar a entusiastas de los crucigramas y juegos de palabras a encontrar términos precisos de forma instantánea.
 
-Normalización Lingüística: El motor ignora automáticamente tildes y diéresis (ej. detecta "Árbol" aunque busques "a_b_l"), eliminando la frustración de las reglas de acentuación.
+### 🚀 [Acceder a la Web en Vivo](https://leximatch-web.onrender.com/)
 
-Filtros de Precisión: * Inclusión: Fuerza la búsqueda de palabras que contengan letras específicas en cualquier posición.
+---
 
-Exclusión: Descarta términos que contengan letras que ya sabes que no forman parte de la respuesta.
+## ✨ Características Principales
+* **Búsqueda Dinámica por Patrones:** Genera una cuadrícula interactiva según la longitud de la palabra.
+* **Normalización Lingüística:** El motor ignora automáticamente tildes y diéresis para facilitar la búsqueda.
+* **Filtros de Precisión:** Permite incluir letras obligatorias o excluir caracteres prohibidos.
+* **UX Premium:** Sistema de auto-focus entre casillas y opción de "Click para copiar".
 
-Experiencia de Usuario (UX) Premium:
+## 🛠️ Tecnología
+* **Backend:** Python con Flask para una lógica de búsqueda ultra rápida.
+* **Frontend:** HTML5 y Tailwind CSS con diseño responsive y modo oscuro.
+* **Despliegue:** Render (con UptimeRobot para alta disponibilidad).
 
-Auto-focus: Salto automático entre casillas al escribir para una entrada de datos fluida.
+## 📖 Cómo usarlo
+1. **Elige la longitud:** Selecciona cuántas letras tiene la palabra.
+2. **Rellena huecos:** Escribe las letras que ya tienes en los cuadros correspondientes.
+3. **Filtra:** Usa las cajas inferiores para forzar o prohibir letras.
+4. **Copia:** Haz clic en el resultado ideal para copiarlo al portapapeles.
 
-Quick-Copy: Copia cualquier resultado al portapapeles con un solo clic.
-
-Diseño Responsive: Optimizado para su uso en computadoras, tablets y teléfonos móviles (Modo Oscuro nativo).
-
-Privacidad y Velocidad: Procesamiento ultra rápido mediante indexación en memoria, sin anuncios intrusivos y con un diseño centrado en la utilidad.
-
-Tecnología
-Construido con un backend robusto en Python (Flask) y una interfaz de última generación utilizando Tailwind CSS. LexiMatch Pro no solo busca palabras, sino que optimiza tu proceso de resolución para que nunca vuelvas a quedarte atascado.
-
-Nota: Ideal para resolver crucigramas, Scrabble, Wordle y otros desafíos lingüísticos.
+---
+*Proyecto desarrollado para facilitar la resolución de retos lingüísticos de forma rápida y gratuita.*
